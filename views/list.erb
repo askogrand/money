@@ -1,0 +1,21 @@
+<h3>List of items stored</h3>
+
+
+<% @bills.each_with_index do |bill,i| %>
+	<%= bill.title %>
+    <%= bill.description %>
+<form action="/payDebt" method="post">
+	
+</form>
+
+<% end %>
+
+<br/><br/><br/>
+
+<% @users.each_with_index do |user,i| %>
+
+    <%= user.name %>
+    <%= user.id %>
+
+<% end %>
+</table>
